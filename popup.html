@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>终极每日一溜！</title>
+
+    <script src="jquery-3.2.1.min.js"></script>
+
+    <script src="popup.js"></script>
+    <!-- <script src="angel.js"></script> -->
+
+    <!-- <script src="spider.js"  ></script> -->
+    <!-- <script src="spider3.js"></script> -->
+
+    <script src="click.js"></script>
+
+    <style>
+
+        body{
+            background-image: url(background001.jpeg);
+            background-size: 620px;
+            background-repeat: no-repeat;
+        }
+
+      
+
+
+        #img123 {
+            position: absolute;
+            width: 50px;
+        }
+
+
+        .king {
+            width: 872px;
+            height: 89px;
+            /* margin: 200px auto; */
+
+
+        }
+
+        .big {
+            width: 224x;
+            height: 69px;
+            display: none;
+            border-radius: 5px;
+        }
+
+        .small {
+            /* position: absolute; */
+            /* top:0; */
+            /* left: 0; */
+            width: 69px;
+            height: 69px;
+            border-radius: 5px;
+            display: block;
+
+        }
+
+
+        .king ul {
+            height: 89px;
+            padding-top: 10px;
+        }
+
+        .king li {
+            float: left;
+            list-style: none;
+        }
+
+        li .current .big {
+            display: block;
+        }
+
+        li .current .small {
+            display: none;
+        }
+
+        .king li .small {
+            position: absolute;
+            left: 0px;
+            height: 0px;
+            width: 69px;
+            height: 69px;
+        }
+
+        .king li {
+            position: relative;
+            width: 69px;
+            height: 69px;
+
+        }
+
+        .king li .current {
+            width: 224px;
+        }
+    </style>
+</head>
+
+
+<body id="allbody" style="width: 600px;height: 100px">
+
+    <div class="king">
+        <ul>
+            <li id="a" class="current">
+                <a href="#">
+                    <img src="aa.png" class="small" alt="">
+                    <img id="abig" src="a.png" class="big" alt="">
+                </a>
+            </li>
+            <li id="b">
+                <a href="#">
+                    <img src="bb.png" class="small" alt="">
+                    <img id="bbig" src="b.png" class="big" alt="">
+                </a>
+
+            </li>
+            <li id="c">
+                <a href="#">
+                    <img src="cc.png" class="small" alt="">
+                    <img id="cbig" src="c.png" class="big" alt="">
+                </a>
+
+            </li>
+            <li id="d">
+                <a href="#">
+                    <img src="dd.png" class="small" alt="">
+                    <img id="dbig" src="d.png" class="big" alt="">
+                </a>
+
+            </li>
+
+            <li id="ee">
+                <a href="#">
+                    <img src="ee.png" class="small" alt="">
+                    <img id="ebig" src="e.png" class="big" alt="">
+                </a>
+
+            </li>
+        </ul>
+    </div>
+    <img src="acao3.gif" width="45">
+    <a id="hrefgoto" href="#" target="_blank"> <button id="btngoto">开溜！</button> </a>
+    <span id="span"></span> <span>&nbsp</span><img src="acao1.gif" width="50">
+   
+
+
+    <!-- <img id="img123" src="128.png" /> -->
+    <!-- <button id="btn1">银屯启动</button> -->
+</body>
+
+</html>
